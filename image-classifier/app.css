@@ -1,0 +1,42 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.container{
+    background: red;
+    height: 100%;
+    background: #5970c0;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.boldText{
+    font-weight: bold;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+#sketch-container{
+    width: 500px;
+    height: 500px;
+}
+#sketch-container canvas{
+    width: 100%;
+    background: #fff;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+}
+#sketch-detail b{
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
