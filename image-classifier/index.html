@@ -7,11 +7,18 @@
     <link rel="styleSheet" href="./app.css" />
 </head>
 <body>
-    <main class="container">
+    <main class="container">  
      <div id="sketch-container"></div>
      <div id="sketch-detail">
     <b id="imageLabel"></b>
     <b id="conf"></b>
+    <div class="upload-options">
+        <label for="upload">
+            Upload Image
+          <input id="upload" type="file" class="image-upload" accept="image/*" />
+        </label>
+        <div id="loader"></div>
+      </div>
     </div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
