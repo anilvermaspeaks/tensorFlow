@@ -82,3 +82,23 @@ body,html{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+  @media only screen and (max-width: 767px) {
+    .container {
+      display: block;
+      padding: 20px;
+    }
+    #sketch-container {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    #sketch-detail{
+      width: 300px;
+      margin: 20px auto;
+    }
+    #sketch-container canvas{
+        width:  300px!important;
+        height:  300px!important;
+    }
+  }
